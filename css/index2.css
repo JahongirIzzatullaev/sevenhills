@@ -6433,7 +6433,7 @@ body.swal2-shown {
 }
 
 .primary-bg {
-    background: #001f3f;
+    background: #1B497A;
     color: #fff
 }
 
@@ -6524,12 +6524,12 @@ h6 {
     -webkit-transform: translateY(-50%) translateX(-50%);
     -ms-transform: translateY(-50%) translateX(-50%);
     transform: translateY(-50%) translateX(-50%);
-    border: 2px solid #001f3f;
+    border: 2px solid #1B497A;
     border-radius: 50%;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
     transition: .3s ease-in-out;
-    color: #001f3f;
+    color: #1B497A;
     font-size: 24px
 }
 
@@ -6569,7 +6569,7 @@ h6 {
     width: 40px;
     height: 40px;
     border-radius: 50%;
-    background: #001f3f;
+    background: #1B497A;
     color: #fff;
     -webkit-transition: .3s ease-in-out;
     -o-transition: .3s ease-in-out;
@@ -6585,7 +6585,7 @@ h6 {
 }
 
 .socials--alt .socials_item-link {
-    color: #001f3f;
+    color: #1B497A;
     background: #ffc631
 }
 
@@ -6674,7 +6674,7 @@ h6 {
     -webkit-transform: rotate(270deg);
     -ms-transform: rotate(270deg);
     transform: rotate(270deg);
-    color: #001f3f;
+    color: #1B497A;
     font-size: 24px;
     line-height: 24px
 }
@@ -6765,7 +6765,7 @@ h6 {
 
 .alert_popup-title {
     font-family: Archivo,sans-serif;
-    color: #001f3f!important;
+    color: #1B497A!important;
     padding: 30px 30px 0
 }
 
@@ -6785,7 +6785,7 @@ h6 {
     top: 0;
     left: 0;
     z-index: 100000;
-    background: #001f3f
+    background: #1B497A
 }
 
 .header_navbar-nav {
@@ -6988,7 +6988,7 @@ h6 {
 
     .header_navbar.sticky {
         padding: 20px 0;
-        background: #001f3f
+        background: #1B497A
     }
 
     .header_navbar .hamburger {
@@ -7056,7 +7056,7 @@ h6 {
         transition: opacity .3s ease-in-out;
         margin: 10px 0 0;
         padding: 15px;
-        background: #001f3f
+        background: #1B497A
     }
 
     .header_navbar-nav_list .list-item .dropdown-content.visible,.header_navbar-nav_list .list-item .dropdown-content:hover {
@@ -7885,11 +7885,11 @@ h6 {
 }
 
 .hero_slider-nav button.tns-nav-active,.tns-nav button.tns-nav-active {
-    background: #001f3f
+    background: #1B497A
 }
 
 .hero_slider-nav button.tns-nav-active:after,.tns-nav button.tns-nav-active:after {
-    border-color: #001f3f
+    border-color: #1B497A
 }
 
 .hero_slider-nav--alt button.tns-nav-active,.tns-nav--alt button.tns-nav-active {
