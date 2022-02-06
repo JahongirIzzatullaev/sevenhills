@@ -7199,7 +7199,8 @@ h6 {
 
 .partners_card .wrapper {
     border: 1px solid #c8c8c8;
-    padding: 51px 0
+    padding: 51px 0;
+    height: 100%;
 }
 
 @media screen and (min-width: 767.98px) {
