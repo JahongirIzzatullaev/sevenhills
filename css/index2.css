@@ -7218,7 +7218,9 @@ h6 {
 }
 
 @media screen and (min-width: 991.98px) {
-    .partners_card[data-order="2"] {
+        .partners_card[data-order="2"] {
+        margin-top: 0
+    } .partners_card[data-order="3"] {
         margin-top: 0
     }
 }
