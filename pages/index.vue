@@ -1,8 +1,26 @@
 <template>
-  <div>
+  <div class="app">
     <t-header/>
-    <div style="height: 100vh">
-      <home-slider/>
+    <home-slider/>
+    <div class="container mx-auto">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consectetur dolor dolore, dolores ducimus
+        ipsa ipsum nihil non omnis quidem rem tenetur! Autem culpa dignissimos facilis laudantium magnam, tenetur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consectetur dolor dolore, dolores ducimus
+        ipsa ipsum nihil non omnis quidem rem tenetur! Autem culpa dignissimos facilis laudantium magnam, tenetur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consectetur dolor dolore, dolores ducimus
+        ipsa ipsum nihil non omnis quidem rem tenetur! Autem culpa dignissimos facilis laudantium magnam, tenetur.
+      </p>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi at consectetur dolor dolore, dolores ducimus
+        ipsa ipsum nihil non omnis quidem rem tenetur! Autem culpa dignissimos facilis laudantium magnam, tenetur.
+      </p>
+
+
     </div>
   </div>
 </template>
@@ -17,3 +35,4 @@ export default Vue.extend({
   components: {HomeSlider, THeader}
 })
 </script>
+

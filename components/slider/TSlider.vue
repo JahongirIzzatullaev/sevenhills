@@ -1,16 +1,15 @@
 <template>
-  <client-only>
-    <vue-displacement-slideshow
-      :images="images"
-      :displacement="displacement"
-      :intensity="0.05"
-      :speedIn="2"
-      :speedOut="1"
-      ease="Expo.easeInOut"
-      ref="slideshow">
-    </vue-displacement-slideshow>
-
-  </client-only>
+    <client-only>
+      <vue-displacement-slideshow
+        :images="images"
+        :displacement="displacement"
+        :intensity="0.05"
+        :speedIn="1"
+        :speedOut="1"
+        ease="Expo.easeInOut"
+        ref="slideshow">
+      </vue-displacement-slideshow>
+    </client-only>
 </template>
 
 <script>
@@ -22,23 +21,34 @@ import displacement from "../../static/assets/images/displacement.png";
 
 export default {
   name: "TSlider",
+  props: {
+    indexImg: {
+      type: Number,
+      required: true
+    },
+  },
   components: {
     VueDisplacementSlideshow
   },
   data() {
-    return {displacement: displacement,}
+    return {displacement: displacement}
   },
   computed: {
     images() {
-      return [image3, image1, image2]
+      return [image1, image2, image3]
     }
   },
   methods: {},
   mounted() {
     setInterval(() => {
-      this.$refs.slideshow?.next();
-    }, 1000);
+      // this.$refs.slideshow?.next();
+    }, 3000);
   },
+  watch: {
+    indexImg() {
+      this.$refs.slideshow?.goTo(this.indexImg);
+    }
+  }
 };
 </script>
 

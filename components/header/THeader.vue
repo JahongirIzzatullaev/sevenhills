@@ -1,19 +1,21 @@
 <template>
   <div class="container mx-auto">
-    <ul class="inline-grid grid-cols-4 gap-4 navbar">
-      <li>
-        <NuxtLink :to="localePath('/')">{{ $t('home.root') }}</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink :to="localePath('/about')">about</NuxtLink>
-      </li>
-      <li>
-        <NuxtLink :to="localePath('/products')">products</NuxtLink>
-      </li>
-      <li>
-        <language-input/>
-      </li>
-    </ul>
+    <div class="navbar">
+      <ul class="inline-grid grid-cols-4 gap-4">
+        <li>
+          <NuxtLink :to="localePath('/')">{{ $t('home.root') }}</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink :to="localePath('/about')">about</NuxtLink>
+        </li>
+        <li>
+          <NuxtLink :to="localePath('/products')">products</NuxtLink>
+        </li>
+        <li>
+          <language-input/>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 
@@ -27,8 +29,12 @@ export default {
 </script>
 
 <style scoped>
-  .navbar{
-    position: relative;
-    z-index: 999;
-  }
+.navbar {
+  position: relative;
+  z-index: 999;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 </style>
