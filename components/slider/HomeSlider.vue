@@ -177,10 +177,5 @@ export default {
   transition-delay: 0.075s;
 }
 
-.l-arrow-group .home-arrow.home-prev:after {
-  -webkit-transform-origin: center right;
-  -ms-transform-origin: center right;
-  transform-origin: center right;
-}
 
 </style>

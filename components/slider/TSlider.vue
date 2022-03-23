@@ -1,15 +1,15 @@
 <template>
-    <client-only>
-      <vue-displacement-slideshow
-        :images="images"
-        :displacement="displacement"
-        :intensity="0.05"
-        :speedIn="1"
-        :speedOut="1"
-        ease="Expo.easeInOut"
-        ref="slideshow">
-      </vue-displacement-slideshow>
-    </client-only>
+  <client-only>
+    <vue-displacement-slideshow
+      :images="images"
+      :displacement="displacement"
+      :intensity="0.05"
+      :speedIn="1"
+      :speedOut="1"
+      ease="Expo.easeInOut"
+      ref="slideshow">
+    </vue-displacement-slideshow>
+  </client-only>
 </template>
 
 <script>
@@ -45,9 +45,13 @@ export default {
     }, 3000);
   },
   watch: {
-    indexImg() {
-      this.$refs.slideshow?.goTo(this.indexImg);
+    indexImg: {
+      handler() {
+        this.$refs.slideshow?.goTo(this.indexImg);
+      },
+      immediate: true
     }
+
   }
 };
 </script>
