@@ -1,4 +1,4 @@
-import i18n from './locales/i18n'
+import i18n from './plugins/i18n'
 
 export default {
   // Target: https://go.nuxtjs.dev/config-target
@@ -49,7 +49,11 @@ export default {
   ],
 
   i18n: i18n,
-
+  loading: {
+    color: 'rgb(45 81 23)',
+    height: '3px',
+    throttle: 0
+  },
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {}
 }

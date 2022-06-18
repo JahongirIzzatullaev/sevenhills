@@ -14,7 +14,7 @@
 
 <script>
 import VueDisplacementSlideshow from "vue-displacement-slideshow";
-import image1 from "../../static/assets/images/1.jpeg";
+import image1 from "../../static/assets/images/bg-img.png";
 import image2 from "../../static/assets/images/2.jpeg";
 import image3 from "../../static/assets/images/3.jpeg";
 import displacement from "../../static/assets/images/displacement.png";

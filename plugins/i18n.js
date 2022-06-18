@@ -1,18 +1,10 @@
-import ar from './ar'
-import ch from './ch'
-import en from './en'
-import ru from './ru'
-import tu from './tu'
-
-const messages = {
-  ar, ch, en, ru, tu
-};
-
+import messages from "../locales/index";
 export default {
   locale: 'en',
   seo: true,
   defaultLocale: 'en',
-  strategy: 'no_prefix',
+  strategy: 'prefix',
+  baseUrl: 'https://sevenhillsagro.com',
   locales: [
     {
       code: 'ar',

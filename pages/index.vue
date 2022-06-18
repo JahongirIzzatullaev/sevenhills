@@ -1,6 +1,5 @@
 <template>
   <div class="app">
-    <t-header/>
     <home-slider/>
     <div class="container mx-auto">
       <p>
@@ -47,12 +46,11 @@
 
 <script lang="ts">
 import Vue from 'vue'
-import THeader from "~/components/header/THeader.vue";
 import HomeSlider from "~/components/slider/HomeSlider.vue";
 
 export default Vue.extend({
   name: 'IndexPage',
-  components: {HomeSlider, THeader}
+  components: {HomeSlider},
 })
 </script>
 
