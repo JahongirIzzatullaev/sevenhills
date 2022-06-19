@@ -1,10 +1,14 @@
 const messages = {
   lang: "Arabic",
   home: {
-    root: "خانه"
+    root: "خانه",
   },
-  products:"خانه",
-  price_list:'خانه',
-}
+  products: "منتجات",
+  price_list: "قائمة الاسعار",
+  services: "خدمات",
+  about: "معلومات عنا",
+  contacts: "جهات الاتصال",
+  call_request: "طلب الاتصال",
+};
 
-export default messages
+export default messages;

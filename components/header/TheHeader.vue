@@ -33,7 +33,6 @@
               </li>
               <li>
                 <a href="" class="btn">
-                  Заказать звонок
                   {{ $t('call_request') }}
                 </a>
               </li>

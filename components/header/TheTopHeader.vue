@@ -2,7 +2,7 @@
   <div class="top-navbar">
     <ul>
       <li>
-        <a href="tel:+18475555555"> +998 91 345 01 98</a>
+        <a href="tel:+18475555555">+998 91 345 01 98</a>
       </li>
       <li>
         <a href="mailto:info@sevenhillsagro.com">info@sevenhillsagro.com</a>
