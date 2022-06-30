@@ -1,0 +1,1 @@
+sudo /usr/local/bin/csso -i css/index.css -o css/index.min.css
